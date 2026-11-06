@@ -1,0 +1,11 @@
+--- v1/app/finsim_trans/resources.py
++++ v2/app/finsim_trans/resources.py
+@@ -280,7 +280,7 @@
+     @jwt_required
+     def post( self ):
+         data = depositParser.parse_args()
+-        user = UserModel.find_by_username( get_jwt_identity() )
++        user = UserModel.find_by_username( get_jwt_identity()['username'] )
+ 
+         try:
+             account = AccountModel.find_by_account_number( data['account'] )

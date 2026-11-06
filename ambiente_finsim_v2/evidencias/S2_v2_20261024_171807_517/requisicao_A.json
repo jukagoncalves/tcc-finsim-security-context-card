@@ -1,0 +1,10 @@
+﻿{
+    "Cenario":  "S2",
+    "Versao":  "v2",
+    "DataHora":  "2026-10-24T17:29:27.5726983-03:00",
+    "Executor":  "tcc_usuario_a",
+    "Metodo":  "POST",
+    "URI":  "http://127.0.0.1:5001/bank/deposit",
+    "Corpo":  "{\r\n    \"amount\":  \"10.00\",\r\n    \"account\":  \"2000000000000002\",\r\n    \"counterpart_name\":  \"tcc_usuario_b\"\r\n}",
+    "Esperado":  "Rejeitar a divergência de identidade, sem alterar saldo nem persistir depósito."
+}

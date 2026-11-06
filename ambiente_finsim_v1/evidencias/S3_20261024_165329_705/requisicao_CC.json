@@ -1,0 +1,10 @@
+﻿{
+    "Cenario":  "S3",
+    "DataHora":  "2026-10-24T16:56:37.5366663-03:00",
+    "Executor":  "tcc_operador_cc",
+    "Papel":  "CC",
+    "Metodo":  "POST",
+    "URI":  "http://127.0.0.1:5000/account/create",
+    "Corpo":  "{\r\n    \"number\":  \"3000000000000003\"\r\n}",
+    "Esperado":  "Negar a criação pelo papel CC, sem persistir nova conta nem alterar contas existentes."
+}

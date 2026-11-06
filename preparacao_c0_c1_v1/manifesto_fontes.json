@@ -1,0 +1,27 @@
+{
+  "data_preparacao": "2026-10-15",
+  "fonte": "C:\\Users\\Steel Legend\\Documents\\Vida Academica\\TCC\\pacote_comum_v1",
+  "aprovacao": "Pacote comum e apresentações C0/C1 revisados e aprovados para preparação da derivação.",
+  "fontes_sha256": {
+    "00_controle.md": "b06266bac1159414bc949f86c6a308aab17c54ecfb3e26ef2f77dfdf2e262933",
+    "01_politicas.md": "7f5db96257534b7e37df2b944deac466d564d41f0ca872f0c0c80b25f8b1cfbf",
+    "02_cenarios.md": "4ea984c7ec737d5570572c5cc0c87c306e37cd7350a0aa51437aaf2309be10f0",
+    "03_api_e_dados.md": "b2039ca26d3b91c9cdb7b98c866039f41017d587ef62a890b4419cb1a57a2336",
+    "04_evidencias_codigo.md": "1fac399905a5e9f79b7e30df97fb3e6f6d3a461de608509970b73230b3ef03f4",
+    "05_limitacoes.md": "4d58062f3fb480050cd918986bf6273a827c44b5aed6cbdc6bf8ce958dad6b31"
+  },
+  "conferencia": {
+    "blocos_por_condicao": 24,
+    "identidade_textual": true,
+    "duplicacoes": false,
+    "requisitos_derivados": false,
+    "experimentos_executados": false
+  },
+  "saidas_sha256": {
+    "correspondencia_c0_c1.md": "bd7ff179f01cd1197470b20ee89c86837204fecf87a2da4219316d21b423d140",
+    "LEIA_ME.md": "f7b4afbea0c40a95e9a7ecaa04ef3e40769cc7781fbb4ca99e50dd7408a8f390",
+    "C0\\material_derivacao.md": "f1afae5d772b97fa38202c798ebe8e230ce8612cdb79d9e89b76c80cbab4cb78",
+    "C1\\material_derivacao.md": "e94ca0cbc112bc178ec4b9a76186f24d7eef499fdbd05bd0f1497333fbdd8524"
+  },
+  "revisao_documental": "Remoção de data de transcrição sem valor cronológico e de distinções administrativas de aprovação; políticas e evidências técnicas preservadas."
+}

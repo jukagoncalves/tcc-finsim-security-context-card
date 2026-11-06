@@ -1,0 +1,11 @@
+﻿{
+    "Cenario":  "S1",
+    "Execucao":  "02",
+    "DataHora":  "2026-10-24T16:17:32.7004355-03:00",
+    "Executor":  "tcc_usuario_a",
+    "Metodo":  "GET",
+    "URI":  "http://127.0.0.1:5000/web/account?number=2000000000000002",
+    "StatusHTTP":  200,
+    "Corpo":  "{\"id\": null, \"account_number\": null, \"balance\": null}\n",
+    "Erro":  null
+}

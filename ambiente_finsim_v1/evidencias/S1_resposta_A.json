@@ -1,0 +1,7 @@
+﻿{
+    "Cenario":  "S1",
+    "Executor":  "tcc_usuario_a",
+    "Conta":  "2000000000000002",
+    "StatusHTTP":  200,
+    "Corpo":  "{\"id\": null, \"account_number\": null, \"balance\": null}\n"
+}

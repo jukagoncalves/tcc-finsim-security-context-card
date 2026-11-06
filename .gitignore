@@ -1,0 +1,41 @@
+# Credenciais locais; somente os modelos podem ser versionados.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Ambientes, caches, volumes e resultados novos.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dados_locais/
+novas_execucoes/
+backups_locais/
+bnk_000_log.txt
+Thumbs.db
+.DS_Store
+# Os logs históricos dentro de evidencias/ são dados do estudo: não ignorar *.txt ou *.log globalmente.
+
+# Fora do escopo de publicação: artigos e composição da monografia.
+figuras_monografia/
+*.bib
+*.bmp
+*.bpmn
+*.doc
+*.docx
+*.gif
+*.jpeg
+*.jpg
+*.odt
+*.pdf
+*.png
+*.svg
+*.tex
+*.tif
+*.tiff
+*.webp

@@ -1,0 +1,41 @@
+name: tcc-finsim-v2
+
+services:
+  db:
+    image: mysql:8.0.27
+    environment:
+      MYSQL_DATABASE: trans
+      MYSQL_USER: trans
+      MYSQL_PASSWORD: ${FINSIM_DB_PASSWORD:?Defina FINSIM_DB_PASSWORD no arquivo .env}
+      MYSQL_ROOT_PASSWORD: ${FINSIM_ROOT_PASSWORD:?Defina FINSIM_ROOT_PASSWORD no arquivo .env}
+    volumes:
+      - trans_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "--host=127.0.0.1", "--silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+
+  api:
+    build:
+      context: .
+    image: tcc-finsim-api:v2
+    environment:
+      FINSIM_DB_PASSWORD: ${FINSIM_DB_PASSWORD:?Defina FINSIM_DB_PASSWORD}
+      FINSIM_APP_SECRET: ${FINSIM_APP_SECRET:?Defina FINSIM_APP_SECRET}
+      FINSIM_JWT_SECRET: ${FINSIM_JWT_SECRET:?Defina FINSIM_JWT_SECRET}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:5001:5000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/', timeout=4).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+volumes:
+  trans_data:

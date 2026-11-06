@@ -1,0 +1,406 @@
+{
+  "data_empacotamento": "2026-11-05",
+  "criterio": "Artefatos de execução e avaliação copiados byte a byte. Credenciais .env, PDFs, imagens e arquivos de composição da monografia excluídos. Documentação nova não integra esta lista de originais.",
+  "arquivos": [
+    {
+      "arquivo": "ambiente_finsim_v1/.dockerignore",
+      "bytes": 46,
+      "sha256": "fd85b9cd2df23226d26dcc16d8b9dcd97433180985114d01274bdd8d8949c119"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/.gitignore",
+      "bytes": 5,
+      "sha256": "69aa73cf5bc3377a7d97f2e8d2bb773195815efe225af7f1be6f5b9306bbe14f"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/ADAPTACOES_API.md",
+      "bytes": 3427,
+      "sha256": "bbafa360d2b22eb88ef20ddaf87570628f92fa49c406a5e4786672875509bfd6"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/alteracoes_inicializacao.diff",
+      "bytes": 1049,
+      "sha256": "8da257901d699c5535c0acc0b94de35caa4990591c9932dd8b14fa76c3383f41"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/finsim_trans/__init__.py",
+      "bytes": 2699,
+      "sha256": "beea9ea01e498ca2cf947b3def66770bf8e977b5dbbfbb78110a7b2332054b57"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/finsim_trans/helper.py",
+      "bytes": 4217,
+      "sha256": "abbfdee5226193c52aeb3e804d4b21f3c7e308c2625cce702dc04b7df7521568"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/finsim_trans/init_script.py",
+      "bytes": 17477,
+      "sha256": "af3f513c48bd05b561a11e715f3936b711d9883a5a3efb0a53c9b187d3613ddd"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/finsim_trans/models.py",
+      "bytes": 5361,
+      "sha256": "75c109461ec4fee30f7975b896f15eeecb56deceea6f8d56ba4c0c0e39118c1b"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/finsim_trans/resources.py",
+      "bytes": 20573,
+      "sha256": "9bfd5adc5f4aa56d840a7a7e38bd253d5741654ee6904f5d5754a93d75c92bfb"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/finsim_trans/views.py",
+      "bytes": 861,
+      "sha256": "1e3a8a31e181e429276a9d0917851e8e418fe88666d913e15fd2516cc694538e"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/app/run.py",
+      "bytes": 129,
+      "sha256": "0bf2945036445c87ad3469a1214cf43190824b0a47bac3699a06ac98e87f1764"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/__init__.py",
+      "bytes": 2548,
+      "sha256": "0d761948672021fd8ce6870b82fb6a50b4f3f788ce95c1c871f7f60878895a6b"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/helper.py",
+      "bytes": 4217,
+      "sha256": "abbfdee5226193c52aeb3e804d4b21f3c7e308c2625cce702dc04b7df7521568"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/init_script_link_original.txt",
+      "bytes": 23,
+      "sha256": "f478dece377ded21f4918b5480f05633272c3470ce55a522b808b19aadbde126"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/init_script_raiz.py",
+      "bytes": 17477,
+      "sha256": "af3f513c48bd05b561a11e715f3936b711d9883a5a3efb0a53c9b187d3613ddd"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/models.py",
+      "bytes": 5361,
+      "sha256": "75c109461ec4fee30f7975b896f15eeecb56deceea6f8d56ba4c0c0e39118c1b"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/resources.py",
+      "bytes": 20573,
+      "sha256": "9bfd5adc5f4aa56d840a7a7e38bd253d5741654ee6904f5d5754a93d75c92bfb"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/baseline/views.py",
+      "bytes": 861,
+      "sha256": "1e3a8a31e181e429276a9d0917851e8e418fe88666d913e15fd2516cc694538e"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/compose.yaml",
+      "bytes": 1183,
+      "sha256": "dc3d6ae85cba1ebd00ea8e8b69a51174a91c36dadcd37eb7c075de050ca39361"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/Dockerfile",
+      "bytes": 261,
+      "sha256": "d679bad87292a529bd1ce788976ca92b63c8671a3091dd94a90ff66a1ab97a5f"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S1_execucao02/conta_antes.json",
+      "bytes": 94,
+      "sha256": "86dcc9a54a6896a0df4fd1306c837cbcaf179d3613d2d60660942117524bdf51"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S1_execucao02/conta_depois.json",
+      "bytes": 94,
+      "sha256": "86dcc9a54a6896a0df4fd1306c837cbcaf179d3613d2d60660942117524bdf51"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S1_execucao02/resposta_A_20261024_161732_722.json",
+      "bytes": 367,
+      "sha256": "a42dfff3bc381218e033c9a049d181f65e9d411934266fec6c5224ed002cd5b3"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S1_execucao02/transacoes_antes.json",
+      "bytes": 8,
+      "sha256": "8a7280a4ad81d4a2848e29649022db384d39db243e6ece8b594f8dfd4ccac952"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S1_execucao02/transacoes_depois.json",
+      "bytes": 8,
+      "sha256": "8a7280a4ad81d4a2848e29649022db384d39db243e6ece8b594f8dfd4ccac952"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S1_resposta_A.json",
+      "bytes": 206,
+      "sha256": "f9a75085e3f6a72d59f3a7e05f0c68fa0e3903c23de7c0a4dc666cecf6afd4d8"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/bnk_000_log_apos_S2.txt",
+      "bytes": 157589,
+      "sha256": "9e20698c8731be8d9a22630ca4db77e6d5886a2f8b001e5a17370c3519103ab8"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/conta_antes.json",
+      "bytes": 94,
+      "sha256": "86dcc9a54a6896a0df4fd1306c837cbcaf179d3613d2d60660942117524bdf51"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/conta_depois.json",
+      "bytes": 94,
+      "sha256": "86dcc9a54a6896a0df4fd1306c837cbcaf179d3613d2d60660942117524bdf51"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/log_api_apos_deposito.txt",
+      "bytes": 1210,
+      "sha256": "a54bb1e120f747988975612416a86467b269566e0c313e5c49ea2a7b96a1c305"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/requisicao_A.json",
+      "bytes": 446,
+      "sha256": "096888541193c4965800510af86d77f2ed6c8aa977e3543f3df645dfa39e54ef"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/resposta_A.json",
+      "bytes": 177,
+      "sha256": "f5dc0c809892965597b35e3b1b133ef42196a83ce519e3d656ffa137c1ed09da"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/transacoes_antes.json",
+      "bytes": 8,
+      "sha256": "8a7280a4ad81d4a2848e29649022db384d39db243e6ece8b594f8dfd4ccac952"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S2_20261024_163025_182/transacoes_depois.json",
+      "bytes": 8,
+      "sha256": "8a7280a4ad81d4a2848e29649022db384d39db243e6ece8b594f8dfd4ccac952"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S3_20261024_165329_705/contas_antes.json",
+      "bytes": 119,
+      "sha256": "ef7eea2a15babcb3e549df6999df336864538717d49aef5618b3abb2338c489a"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S3_20261024_165329_705/contas_depois.json",
+      "bytes": 230,
+      "sha256": "45a0e055078566c6d845613c4ce1ce0f44864baed5f0e4cd63cd3633539636af"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S3_20261024_165329_705/requisicao_CC.json",
+      "bytes": 397,
+      "sha256": "b70d381c659fee38fbc2b1718988628e6580e9e25ac0bb22ca6d881d6a88fe1b"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/evidencias/S3_20261024_165329_705/resposta_CC.json",
+      "bytes": 121,
+      "sha256": "5c6e17531b1c6528b9a7ba4fea0d64b107b52952f366611d437d95114b2c316d"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/LEIA_ME.md",
+      "bytes": 4041,
+      "sha256": "565cf0862edcf98eeca2efa174d84f9d8d901dd1390705c02e6bb583a4acb2e4"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/manifesto_api.json",
+      "bytes": 3473,
+      "sha256": "ff6b6adaafe958cead91f6acd672301f9b7d895abe7366b231c31290949e3c42"
+    },
+    {
+      "arquivo": "ambiente_finsim_v1/requirements.txt",
+      "bytes": 498,
+      "sha256": "e8d950847f13dc2ae9a784a89f5e0dac72673493e8c71a1f776d88ac4b7174b2"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/.dockerignore",
+      "bytes": 46,
+      "sha256": "fd85b9cd2df23226d26dcc16d8b9dcd97433180985114d01274bdd8d8949c119"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/.gitignore",
+      "bytes": 5,
+      "sha256": "69aa73cf5bc3377a7d97f2e8d2bb773195815efe225af7f1be6f5b9306bbe14f"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/finsim_trans/__init__.py",
+      "bytes": 2699,
+      "sha256": "beea9ea01e498ca2cf947b3def66770bf8e977b5dbbfbb78110a7b2332054b57"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/finsim_trans/helper.py",
+      "bytes": 4217,
+      "sha256": "abbfdee5226193c52aeb3e804d4b21f3c7e308c2625cce702dc04b7df7521568"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/finsim_trans/init_script.py",
+      "bytes": 17477,
+      "sha256": "af3f513c48bd05b561a11e715f3936b711d9883a5a3efb0a53c9b187d3613ddd"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/finsim_trans/models.py",
+      "bytes": 5361,
+      "sha256": "75c109461ec4fee30f7975b896f15eeecb56deceea6f8d56ba4c0c0e39118c1b"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/finsim_trans/resources.py",
+      "bytes": 20585,
+      "sha256": "169a5717c065e96bbcfe328d7b5931c82b74c9dd88398ee3465ebc55aa8a56ae"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/finsim_trans/views.py",
+      "bytes": 861,
+      "sha256": "1e3a8a31e181e429276a9d0917851e8e418fe88666d913e15fd2516cc694538e"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/app/run.py",
+      "bytes": 129,
+      "sha256": "0bf2945036445c87ad3469a1214cf43190824b0a47bac3699a06ac98e87f1764"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/compose.yaml",
+      "bytes": 1183,
+      "sha256": "625bf9e696e0909de8307d25bfb4775c6c1eb136c449bcc25975f956336c6b0e"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/CORRECAO_TECNICA_S2.md",
+      "bytes": 1551,
+      "sha256": "5ee9c110fc348dae6e24ee16482d94e2792245b48bfe9d3e9d8daed4da5d75d3"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/Dockerfile",
+      "bytes": 261,
+      "sha256": "d679bad87292a529bd1ce788976ca92b63c8671a3091dd94a90ff66a1ab97a5f"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/evidencias/S2_v2_20261024_171807_517/conta_antes.json",
+      "bytes": 94,
+      "sha256": "86dcc9a54a6896a0df4fd1306c837cbcaf179d3613d2d60660942117524bdf51"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/evidencias/S2_v2_20261024_171807_517/conta_depois.json",
+      "bytes": 95,
+      "sha256": "2aaee8dd82c4b329fd578814112c8780cb1541ed9dc6e457deeb98a39e550855"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/evidencias/S2_v2_20261024_171807_517/requisicao_A.json",
+      "bytes": 468,
+      "sha256": "1b96eb6c181b2521e7758d8071f485e9a73f5096d6a87e5c562704e65b9c82ce"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/evidencias/S2_v2_20261024_171807_517/resposta_A.json",
+      "bytes": 118,
+      "sha256": "a7b2ab6e31cf44d1ff72224bbd9e01c3432be22f2bca26c0bff3fb66fcd7cf91"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/evidencias/S2_v2_20261024_171807_517/transacoes_antes.json",
+      "bytes": 8,
+      "sha256": "8a7280a4ad81d4a2848e29649022db384d39db243e6ece8b594f8dfd4ccac952"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/evidencias/S2_v2_20261024_171807_517/transacoes_depois.json",
+      "bytes": 176,
+      "sha256": "7ea13a9e6cb12beca0da0c09f4a39f4049c957d882eda63e592f27e9e82641d9"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/manifesto_correcao.json",
+      "bytes": 1607,
+      "sha256": "818198fdde7a6b2f9fe08ec642efc42ba9d959bf753a03f7e2c08038fe7f6979"
+    },
+    {
+      "arquivo": "ambiente_finsim_v2/requirements.txt",
+      "bytes": 498,
+      "sha256": "e8d950847f13dc2ae9a784a89f5e0dac72673493e8c71a1f776d88ac4b7174b2"
+    },
+    {
+      "arquivo": "comparacao_M5_v1.md",
+      "bytes": 5143,
+      "sha256": "72447c77eb6db40918c4eeb146c763abaf46bd1708b7ccc2dadedda5e463d2ca"
+    },
+    {
+      "arquivo": "consenso_M1_M2_v1.md",
+      "bytes": 5146,
+      "sha256": "2b82ed11b91d77f52ab9b75d2be6b9fc216d84f27e21cde10d6d458129f70385"
+    },
+    {
+      "arquivo": "consolidacao_M3_M4_v1.md",
+      "bytes": 8237,
+      "sha256": "c7042f6bca9ffdb63c4b0c93f89e272830af0b45a31cf56ce69e41586e40356a"
+    },
+    {
+      "arquivo": "consolidacao_M3_M4_v2.md",
+      "bytes": 8752,
+      "sha256": "2cd304fbd480c29b686c00540736d85459f9bfc06bd079c1249727c2e0cac441"
+    },
+    {
+      "arquivo": "ficha_avaliacao_gqm_v1.md",
+      "bytes": 14185,
+      "sha256": "90b1da57964387f4feea5e6bab345b5e28f222d41660d66decaf4d50b02fefa8"
+    },
+    {
+      "arquivo": "pacote_comum_v1/00_controle.md",
+      "bytes": 5936,
+      "sha256": "b06266bac1159414bc949f86c6a308aab17c54ecfb3e26ef2f77dfdf2e262933"
+    },
+    {
+      "arquivo": "pacote_comum_v1/01_politicas.md",
+      "bytes": 3447,
+      "sha256": "7f5db96257534b7e37df2b944deac466d564d41f0ca872f0c0c80b25f8b1cfbf"
+    },
+    {
+      "arquivo": "pacote_comum_v1/02_cenarios.md",
+      "bytes": 3506,
+      "sha256": "4ea984c7ec737d5570572c5cc0c87c306e37cd7350a0aa51437aaf2309be10f0"
+    },
+    {
+      "arquivo": "pacote_comum_v1/03_api_e_dados.md",
+      "bytes": 3731,
+      "sha256": "b2039ca26d3b91c9cdb7b98c866039f41017d587ef62a890b4419cb1a57a2336"
+    },
+    {
+      "arquivo": "pacote_comum_v1/04_evidencias_codigo.md",
+      "bytes": 20229,
+      "sha256": "1fac399905a5e9f79b7e30df97fb3e6f6d3a461de608509970b73230b3ef03f4"
+    },
+    {
+      "arquivo": "pacote_comum_v1/05_limitacoes.md",
+      "bytes": 4884,
+      "sha256": "4d58062f3fb480050cd918986bf6273a827c44b5aed6cbdc6bf8ce958dad6b31"
+    },
+    {
+      "arquivo": "preparacao_c0_c1_v1/C0/material_derivacao.md",
+      "bytes": 46174,
+      "sha256": "f1afae5d772b97fa38202c798ebe8e230ce8612cdb79d9e89b76c80cbab4cb78"
+    },
+    {
+      "arquivo": "preparacao_c0_c1_v1/C1/material_derivacao.md",
+      "bytes": 47277,
+      "sha256": "e94ca0cbc112bc178ec4b9a76186f24d7eef499fdbd05bd0f1497333fbdd8524"
+    },
+    {
+      "arquivo": "preparacao_c0_c1_v1/correspondencia_c0_c1.md",
+      "bytes": 4625,
+      "sha256": "bd7ff179f01cd1197470b20ee89c86837204fecf87a2da4219316d21b423d140"
+    },
+    {
+      "arquivo": "preparacao_c0_c1_v1/LEIA_ME.md",
+      "bytes": 1969,
+      "sha256": "f7b4afbea0c40a95e9a7ecaa04ef3e40769cc7781fbb4ca99e50dd7408a8f390"
+    },
+    {
+      "arquivo": "preparacao_c0_c1_v1/manifesto_fontes.json",
+      "bytes": 1624,
+      "sha256": "ac0ec0bfa25663990355c0ffb82579dc1151dc4ba544cd631673aef07782a21a"
+    },
+    {
+      "arquivo": "procedimento_derivacao_v1.md",
+      "bytes": 3654,
+      "sha256": "d8fb83a47068226bad744babb09c516e9b8aa513894fc0a74aadffa7d8564fdc"
+    },
+    {
+      "arquivo": "rastreabilidade_requisitos_execucoes_v1.md",
+      "bytes": 7983,
+      "sha256": "ccfb536ac0663108cc6b15700a8e5eaed0e574fde2d3748f3cd004465cce93e0"
+    },
+    {
+      "arquivo": "registro_derivacao_C0.md",
+      "bytes": 1674,
+      "sha256": "fb715800badadd85d3b961186ec283233a18f31ada9bc34999ebb65fbcf05329"
+    }
+  ]
+}

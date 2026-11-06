@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": 1,
+    "account_number": "2000000000000002",
+    "balance": "0.00",
+    "owner_id": 2
+  },
+  {
+    "id": 2,
+    "account_number": "3000000000000003",
+    "balance": "0.00",
+    "owner_id": 3
+  }
+]

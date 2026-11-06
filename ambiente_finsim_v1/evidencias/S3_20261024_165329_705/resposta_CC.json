@@ -1,0 +1,5 @@
+﻿{
+    "StatusHTTP":  200,
+    "Corpo":  "{\"message\": \"Account created successfully\"}\n",
+    "Erro":  null
+}

@@ -1,0 +1,5 @@
+﻿{
+    "StatusHTTP":  500,
+    "Corpo":  "{\"message\": \"Internal Server Error\"}\n",
+    "Erro":  "The remote server returned an error: (500) Internal Server Error."
+}

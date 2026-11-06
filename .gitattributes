@@ -1,0 +1,4 @@
+# Preservar bytes dos artefatos e evidências: não converter CRLF/LF ao clonar.
+* -text
+*.png binary
+*.pdf binary

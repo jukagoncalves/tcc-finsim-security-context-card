@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-23",
+  "origem": "C:\\Users\\Steel Legend\\Documents\\Vida Academica\\Iniciaçao Cientifica\\finsim-master",
+  "hashes_fontes": {
+    "finsim-trans/src/finsim_trans/__init__.py": "0d761948672021fd8ce6870b82fb6a50b4f3f788ce95c1c871f7f60878895a6b",
+    "finsim-trans/src/finsim_trans/models.py": "75c109461ec4fee30f7975b896f15eeecb56deceea6f8d56ba4c0c0e39118c1b",
+    "finsim-trans/src/finsim_trans/resources.py": "9bfd5adc5f4aa56d840a7a7e38bd253d5741654ee6904f5d5754a93d75c92bfb",
+    "finsim-trans/src/finsim_trans/helper.py": "abbfdee5226193c52aeb3e804d4b21f3c7e308c2625cce702dc04b7df7521568",
+    "finsim-trans/src/finsim_trans/views.py": "1e3a8a31e181e429276a9d0917851e8e418fe88666d913e15fd2516cc694538e",
+    "init_script.py": "af3f513c48bd05b561a11e715f3936b711d9883a5a3efb0a53c9b187d3613ddd",
+    "finsim-trans/src/finsim_trans/init_script.py": "f478dece377ded21f4918b5480f05633272c3470ce55a522b808b19aadbde126"
+  },
+  "arquivos_existentes_antes": {
+    "compose.yaml": "9e7b95ebd8b0bfde6037300f5b11ec9b6906f04c6dbd8f982db05a8fc845dd6d",
+    ".env": "e7356f02d420bf11f11821be189dbe79b6ad050d1c087bcd27405ee0011f0bea",
+    "LEIA_ME.md": "584ab33c0e537b0cd3c7a0c569e33b4289258eae5f6caf3ca8a4ab682e2df2eb"
+  },
+  "validacao_estatica": "Sintaxe Python e preservação byte a byte dos quatro módulos conferidas; Compose a validar; execução ainda pendente.",
+  "arquivos_preparados": {
+    ".dockerignore": "fd85b9cd2df23226d26dcc16d8b9dcd97433180985114d01274bdd8d8949c119",
+    "ADAPTACOES_API.md": "bbafa360d2b22eb88ef20ddaf87570628f92fa49c406a5e4786672875509bfd6",
+    "alteracoes_inicializacao.diff": "8da257901d699c5535c0acc0b94de35caa4990591c9932dd8b14fa76c3383f41",
+    "compose.yaml": "dc3d6ae85cba1ebd00ea8e8b69a51174a91c36dadcd37eb7c075de050ca39361",
+    "Dockerfile": "d679bad87292a529bd1ce788976ca92b63c8671a3091dd94a90ff66a1ab97a5f",
+    "LEIA_ME.md": "565cf0862edcf98eeca2efa174d84f9d8d901dd1390705c02e6bb583a4acb2e4",
+    "requirements.txt": "e8d950847f13dc2ae9a784a89f5e0dac72673493e8c71a1f776d88ac4b7174b2",
+    "app\\run.py": "0bf2945036445c87ad3469a1214cf43190824b0a47bac3699a06ac98e87f1764",
+    "baseline\\helper.py": "abbfdee5226193c52aeb3e804d4b21f3c7e308c2625cce702dc04b7df7521568",
+    "baseline\\init_script_link_original.txt": "f478dece377ded21f4918b5480f05633272c3470ce55a522b808b19aadbde126",
+    "baseline\\init_script_raiz.py": "af3f513c48bd05b561a11e715f3936b711d9883a5a3efb0a53c9b187d3613ddd",
+    "baseline\\models.py": "75c109461ec4fee30f7975b896f15eeecb56deceea6f8d56ba4c0c0e39118c1b",
+    "baseline\\resources.py": "9bfd5adc5f4aa56d840a7a7e38bd253d5741654ee6904f5d5754a93d75c92bfb",
+    "baseline\\views.py": "1e3a8a31e181e429276a9d0917851e8e418fe88666d913e15fd2516cc694538e",
+    "baseline\\__init__.py": "0d761948672021fd8ce6870b82fb6a50b4f3f788ce95c1c871f7f60878895a6b",
+    "app\\finsim_trans\\helper.py": "abbfdee5226193c52aeb3e804d4b21f3c7e308c2625cce702dc04b7df7521568",
+    "app\\finsim_trans\\init_script.py": "af3f513c48bd05b561a11e715f3936b711d9883a5a3efb0a53c9b187d3613ddd",
+    "app\\finsim_trans\\models.py": "75c109461ec4fee30f7975b896f15eeecb56deceea6f8d56ba4c0c0e39118c1b",
+    "app\\finsim_trans\\resources.py": "9bfd5adc5f4aa56d840a7a7e38bd253d5741654ee6904f5d5754a93d75c92bfb",
+    "app\\finsim_trans\\views.py": "1e3a8a31e181e429276a9d0917851e8e418fe88666d913e15fd2516cc694538e",
+    "app\\finsim_trans\\__init__.py": "beea9ea01e498ca2cf947b3def66770bf8e977b5dbbfbb78110a7b2332054b57"
+  }
+}
